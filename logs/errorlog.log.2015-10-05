@@ -1,0 +1,327 @@
+2015-10-05 14:13:26 ERROR RequestHandlerThread:34 - adding error in httpserver
+2015-10-05 14:13:33 ERROR RequestHandlerThread:540 - adding error in requesthandler
+2015-10-05 14:18:13 ERROR RequestHandlerThread:34 - adding error in httpserver
+2015-10-05 14:21:23 ERROR RequestHandlerThread:34 - adding error in httpserver
+2015-10-05 14:21:55 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:415)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 14:23:01 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:408)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 14:23:01 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:408)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 14:23:18 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1911)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:437)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 14:24:03 ERROR RequestHandlerThread:34 - adding error in httpserver
+2015-10-05 14:24:34 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:415)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 14:26:26 ERROR RequestHandlerThread:34 - adding error in httpserver
+2015-10-05 14:27:41 ERROR RequestHandlerThread:34 - adding error in httpserver
+2015-10-05 14:31:43 ERROR RequestHandlerThread:34 - adding error in httpserver
+2015-10-05 14:31:50 ERROR RequestHandlerThread:540 - adding error in requesthandler
+2015-10-05 14:32:00 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:408)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 14:32:00 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:408)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 14:32:44 ERROR RequestHandlerThread:34 - adding error in httpserver
+2015-10-05 14:32:47 ERROR RequestHandlerThread:540 - adding error in requesthandler
+2015-10-05 14:33:07 ERROR RequestHandlerThread:540 - adding error in requesthandler
+2015-10-05 14:33:12 ERROR RequestHandlerThread:540 - adding error in requesthandler
+2015-10-05 14:33:54 ERROR RequestHandlerThread:34 - adding error in httpserver
+2015-10-05 14:33:57 ERROR RequestHandlerThread:540 - adding error in requesthandler
+2015-10-05 14:34:31 ERROR RequestHandlerThread:34 - adding error in httpserver
+2015-10-05 14:34:33 ERROR RequestHandlerThread:540 - adding error in requesthandler
+2015-10-05 14:37:53 ERROR RequestHandlerThread:34 - adding error in httpserver
+2015-10-05 14:40:10 ERROR RequestHandlerThread:34 - adding error in httpserver
+2015-10-05 16:11:21 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 16:11:28 ERROR HttpServletResponseClone:266 - Servlet is attempting to send errorResponse to client with code: 500
+2015-10-05 16:11:58 ERROR HttpServletResponseClone:266 - Servlet is attempting to send errorResponse to client with code: 500
+2015-10-05 16:12:06 ERROR HttpServletResponseClone:266 - Servlet is attempting to send errorResponse to client with code: 500
+2015-10-05 16:12:10 ERROR HttpServletResponseClone:266 - Servlet is attempting to send errorResponse to client with code: 500
+2015-10-05 16:12:12 ERROR HttpServletResponseClone:266 - Servlet is attempting to send errorResponse to client with code: 500
+2015-10-05 16:12:13 ERROR HttpServletResponseClone:266 - Servlet is attempting to send errorResponse to client with code: 500
+2015-10-05 16:12:14 ERROR HttpServletResponseClone:266 - Servlet is attempting to send errorResponse to client with code: 500
+2015-10-05 16:12:15 ERROR HttpServletResponseClone:266 - Servlet is attempting to send errorResponse to client with code: 500
+2015-10-05 16:13:05 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 16:13:09 ERROR HttpServletResponseClone:266 - Servlet is attempting to send errorResponse to client with code: 500
+2015-10-05 16:13:11 ERROR HttpServletResponseClone:266 - Servlet is attempting to send errorResponse to client with code: 500
+2015-10-05 16:13:12 ERROR HttpServletResponseClone:266 - Servlet is attempting to send errorResponse to client with code: 500
+2015-10-05 16:13:35 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 16:13:42 ERROR HttpServletResponseClone:266 - Servlet is attempting to send errorResponse to client with code: 404
+2015-10-05 16:25:43 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 16:25:50 ERROR HttpServletResponseClone:266 - Servlet is attempting to send errorResponse to client with code: 404
+2015-10-05 16:43:38 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 16:43:43 ERROR HttpServletResponseClone:283 - Servlet is attempting to send errorResponse to client with code: 404 and message: test 404
+2015-10-05 16:45:07 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 16:45:10 ERROR HttpServletResponseClone:283 - Servlet is attempting to send errorResponse to client with code: 4040 and message: test 404
+2015-10-05 16:59:15 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 16:59:38 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:408)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 17:00:07 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:408)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 17:00:41 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 17:00:55 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:408)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 17:01:26 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:408)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 17:14:39 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 17:15:25 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 17:15:41 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 17:15:53 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 17:22:39 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 17:29:55 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 17:40:01 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 18:14:41 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 18:16:08 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 18:17:47 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:410)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 18:32:05 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 18:32:12 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 18:32:26 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 18:35:13 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 18:37:36 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 18:38:18 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:410)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 18:38:51 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:410)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 18:38:51 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:410)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 18:42:57 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 18:43:03 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 18:45:00 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 19:09:16 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 19:09:55 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 19:10:30 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 19:16:35 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 19:16:53 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:414)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 19:16:53 ERROR RequestHandlerThread:89 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:414)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 19:31:45 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 19:33:13 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 19:36:26 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 19:36:51 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 19:42:11 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 19:42:22 ERROR HttpServletResponseClone:296 - Servlet is attempting to send errorResponse to client with code: 405 and message: HTTP method POST is not supported by this URL
+2015-10-05 19:42:48 ERROR HttpServletResponseClone:296 - Servlet is attempting to send errorResponse to client with code: 405 and message: HTTP method POST is not supported by this URL
+2015-10-05 19:43:33 ERROR HttpServletResponseClone:296 - Servlet is attempting to send errorResponse to client with code: 405 and message: HTTP method POST is not supported by this URL
+2015-10-05 19:43:34 ERROR HttpServletResponseClone:296 - Servlet is attempting to send errorResponse to client with code: 405 and message: HTTP method POST is not supported by this URL
+2015-10-05 19:43:35 ERROR HttpServletResponseClone:296 - Servlet is attempting to send errorResponse to client with code: 405 and message: HTTP method POST is not supported by this URL
+2015-10-05 19:50:18 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 19:50:21 ERROR HttpServletResponseClone:296 - Servlet is attempting to send errorResponse to client with code: 405 and message: HTTP method POST is not supported by this URL
+2015-10-05 19:51:20 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 19:52:10 ERROR RequestHandlerThread:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 20:12:39 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 20:19:27 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 20:20:34 ERROR HttpServletResponseClone:296 - Servlet is attempting to send errorResponse to client with code: 405 and message: HTTP method POST is not supported by this URL
+2015-10-05 20:23:42 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 20:25:12 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 20:25:17 ERROR RequestHandlerThread:153 - handler test error
+2015-10-05 20:31:24 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 20:50:28 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:05:46 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:05:54 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.searchPathMappings(RequestHandlerThread.java:620)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:72)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:06:16 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.searchPathMappings(RequestHandlerThread.java:620)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:72)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:07:11 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.searchPathMappings(RequestHandlerThread.java:620)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:72)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:08:04 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.searchPathMappings(RequestHandlerThread.java:620)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:72)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:08:05 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.searchPathMappings(RequestHandlerThread.java:620)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:72)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:09:08 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:09:11 ERROR RequestHandlerThread:153 - handler test error
+2015-10-05 21:09:17 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:16:49 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:18:16 ERROR RequestHandlerThread:155 - handler test error
+2015-10-05 21:30:17 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:30:23 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:30:31 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.HttpServletRequestClone.getPathInfo(HttpServletRequestClone.java:341)
+	at test.TestServlet.doGet(TestServlet.java:17)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.startServlet(RequestHandlerThread.java:118)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:74)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:30:36 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.HttpServletRequestClone.getPathInfo(HttpServletRequestClone.java:341)
+	at test.TestServlet.doGet(TestServlet.java:17)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.startServlet(RequestHandlerThread.java:118)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:74)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:30:45 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:426)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:69)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:31:28 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:31:34 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:31:55 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:426)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:69)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:31:59 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:32:39 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:32:52 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:426)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:69)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:35:05 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:36:10 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at edu.upenn.cis.cis455.webserver.HttpServletRequestClone.getReader(HttpServletRequestClone.java:182)
+	at test.TestServlet.doGet(TestServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.startServlet(RequestHandlerThread.java:118)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:74)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:39:30 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:39:37 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.ArrayIndexOutOfBoundsException: 6
+	at edu.upenn.cis.cis455.webserver.HttpServletRequestClone.getPathInfo(HttpServletRequestClone.java:345)
+	at test.TestServlet.doGet(TestServlet.java:17)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.startServlet(RequestHandlerThread.java:118)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:74)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:40:44 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:40:46 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.ArrayIndexOutOfBoundsException: 6
+	at edu.upenn.cis.cis455.webserver.HttpServletRequestClone.getPathInfo(HttpServletRequestClone.java:345)
+	at test.TestServlet.doGet(TestServlet.java:17)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.startServlet(RequestHandlerThread.java:118)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:74)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:41:41 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:43:23 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:43:27 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at test.TestServlet.doGet(TestServlet.java:28)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.startServlet(RequestHandlerThread.java:118)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:74)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 21:44:01 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:44:06 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:51:55 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:55:07 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:57:59 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 21:59:26 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 22:05:33 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 22:06:19 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 22:06:52 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 22:07:28 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 23:38:18 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 23:38:31 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:429)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:69)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 23:38:31 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:429)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:69)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 23:38:31 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:429)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:69)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 23:38:44 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:429)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:69)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 23:38:44 ERROR RequestHandlerThread:91 - An exception occurred. 
+java.lang.NullPointerException
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.parseRequest(RequestHandlerThread.java:429)
+	at edu.upenn.cis.cis455.webserver.RequestHandlerThread.run(RequestHandlerThread.java:69)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-05 23:39:51 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 23:42:09 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 23:44:25 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 23:45:09 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 23:47:08 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 23:47:24 ERROR RequestHandlerThread:91 - An exception occurred. Possibly bad socket.
+2015-10-05 23:50:25 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 23:58:21 ERROR HttpServer:34 - Test error to display during grading in case no other errors are thrown.
+2015-10-05 23:58:57 ERROR RequestHandlerThread:91 - An exception occurred. Possibly bad socket.

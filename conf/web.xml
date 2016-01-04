@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+
+	<!-- General description of your web application -->
+
+	<display-name>Test servlets</display-name>
+	<description>
+		Some servlets you can use to test your application server
+    </description>
+
+	<context-param>
+		<param-name>webmaster</param-name>
+		<param-value>yourname@seas.upenn.edu</param-value>
+		<description>
+			The EMAIL address of the administrator to whom questions
+			and comments about this application should be addressed.
+      </description>
+	</context-param>
+
+	<servlet>
+		<servlet-name>testRequest</servlet-name>
+		<servlet-class>servlets.RequestTestServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>testContext</servlet-name>
+		<servlet-class>servlets.ContextTestServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>testResponse</servlet-name>
+		<servlet-class>servlets.ResponseTestServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>testSession</servlet-name>
+		<servlet-class>servlets.SessionTestServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>extraServlet</servlet-name>
+		<servlet-class>servlets.ExtraServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>extraServlet2</servlet-name>
+		<servlet-class>servlets.ExtraServlet2</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>errorServlet</servlet-name>
+		<servlet-class>servlets.ErrorServlet</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<servlet-name>demo</servlet-name>
+		<description>
+			This is a simple demonstration servlet.
+      </description>
+		<servlet-class>servlets.DemoServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>init</servlet-name>
+		<description>
+			This servlet checks for the context init parameter
+			"webmaster" from
+			above, and the servlet init parameter "TestParam"
+			from below.
+      </description>
+		<servlet-class>servlets.InitParamServlet</servlet-class>
+		<init-param>
+			<param-name>TestParam</param-name>
+			<param-value>1776</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet>
+		<servlet-name>session1</servlet-name>
+		<servlet-class>servlets.SessionServlet1</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>session2</servlet-name>
+		<servlet-class>servlets.SessionServlet2</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>session3</servlet-name>
+		<servlet-class>servlets.SessionServlet3</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>cookie1</servlet-name>
+		<servlet-class>servlets.CookieServlet1</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>cookie2</servlet-name>
+		<servlet-class>servlets.CookieServlet2</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>cookie3</servlet-name>
+		<servlet-class>servlets.CookieServlet3</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>testConfig</servlet-name>
+		<servlet-class>servlets.ConfigTestServlet</servlet-class>
+		<init-param>
+			<param-name>TestParam</param-name>
+			<param-value>1776</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>testConfig</servlet-name>
+		<url-pattern>/testConfig</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>testRequest</servlet-name>
+		<url-pattern>/testRequest</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>testContext</servlet-name>
+		<url-pattern>/testContext</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>testResponse</servlet-name>
+		<url-pattern>/testResponse</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>testSession</servlet-name>
+		<url-pattern>/testSession</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>extraServlet</servlet-name>
+		<url-pattern>/extraServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>extraServlet2</servlet-name>
+		<url-pattern>/extraServlet2</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>errorServlet</servlet-name>
+		<url-pattern>/errorServlet2</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>demo</servlet-name>
+		<url-pattern>/demo</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>demo</servlet-name>
+		<url-pattern>/demo/123</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>init</servlet-name>
+		<url-pattern>/demo/123/456</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>demo</servlet-name>
+		<url-pattern>/demo/123/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>init</servlet-name>
+		<url-pattern>/init</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>session1</servlet-name>
+		<url-pattern>/session1</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>session2</servlet-name>
+		<url-pattern>/session2</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>session3</servlet-name>
+		<url-pattern>/session3</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>cookie1</servlet-name>
+		<url-pattern>/cookie1</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>cookie2</servlet-name>
+		<url-pattern>/cookie2</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>cookie3</servlet-name>
+		<url-pattern>/cookie3</url-pattern>
+	</servlet-mapping>
+
+	<!--
+		Define the default session timeout for your application, in minutes.
+		From a servlet or JSP page, you can modify the timeout for a
+		particular session dynamically by using
+		HttpSession.getMaxInactiveInterval().
+	-->
+
+	<session-config>
+		<session-timeout>30</session-timeout>    <!-- 30 minutes -->
+	</session-config>
+
+</web-app>
